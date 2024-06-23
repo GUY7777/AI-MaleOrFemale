@@ -1,0 +1,78 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 2rem;
+  gap: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+  justify-items: center;
+  align-items: center;
+}
+.title h1 {
+  color: #d7dfe3;
+  font-size: 4rem;
+}
+button {
+  padding: 0.6rem;
+  width: 100%;
+  max-width: 20rem;
+  border-radius: 0.5rem;
+  outline: unset;
+  transition: 0.4s;
+  border: 0.15rem solid var(--main-color);
+  background-color: transparent;
+}
+button:hover {
+  background-color: var(--main-color);
+  opacity: 70%;
+  color: white;
+  cursor: pointer;
+}
+.input_image {
+  width: 100%;
+  max-width: 20rem;
+  margin-top: 2rem;
+  transition: 1s;
+  border-radius: 0.3rem;
+  filter: drop-shadow(0.5rem 0.5rem 1rem var(--main-color));
+}
+.input_image:hover {
+  transform: scale(1.1);
+}
+
+.prediction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 100;
+  position: absolute;
+  top: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: 90%;
+  max-width: 20rem;
+  padding: 2.5rem;
+  font-weight: 800;
+  font-size: 2rem;
+  background-color: white;
+  border-radius: 0.4rem;
+  gap: 1rem;
+}
+.prediction * {
+  margin: 0;
+}
+.prediction button {
+  width: 100%;
+  max-width: 15rem;
+  font-size: 1.4rem;
+}
+.prediction img {
+  width: 100px;
+}
+
+.hide {
+  opacity: 40%;
+}

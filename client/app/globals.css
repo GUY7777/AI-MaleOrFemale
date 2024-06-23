@@ -1,0 +1,8 @@
+* {
+  --main-color: #0373b8;
+  --secondary-color: #010111;
+  color: var(--main-color);
+}
+html {
+  background-color: var(--secondary-color);
+}
